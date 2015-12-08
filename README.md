@@ -8,6 +8,6 @@ learning stuff.
 Issues running Scraper project in the OS X:
 *ImportError: cannot import name xmlrpc_client:*
 
-sudo rm -rf /Library/Python/2.7/site-packages/six*
-sudo rm -rf /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/six*
-sudo pip install six
+- sudo rm -rf /Library/Python/2.7/site-packages/six*
+- sudo rm -rf /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/six*
+- sudo pip install six
