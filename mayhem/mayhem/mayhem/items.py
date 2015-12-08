@@ -5,10 +5,19 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy.item import Item, Field
 
 
-class MayhemItem(scrapy.Item):
+class NewsSection(scrapy.Item):
+    # This will be used later to define the object structure for
+    # all the news articles.
+    section = Field()
+    link = Field()
+
+
+class NewsArticle(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = Field()
+    link = Field()
+    description = Field()
